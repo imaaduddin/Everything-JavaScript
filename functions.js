@@ -25,3 +25,10 @@ console.log(myTempInF);
 
 let myTemp = toCelcius(8);
 console.log(myTemp);
+
+// arrow function
+let newFunction = (num1, num2) => {
+  return num1 * num2;
+}
+
+console.log(newFunction(3, 2));
